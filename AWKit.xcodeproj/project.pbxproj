@@ -12,6 +12,18 @@
 		68D436661CE5B200004E7C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D436641CE5B200004E7C63 /* Main.storyboard */; };
 		68D436681CE5B200004E7C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D436671CE5B200004E7C63 /* Assets.xcassets */; };
 		68D4366B1CE5B200004E7C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D436691CE5B200004E7C63 /* LaunchScreen.storyboard */; };
+		68D436731CE5B2FA004E7C63 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D436721CE5B2FA004E7C63 /* Alamofire.framework */; };
+		68D436811CE5B3AC004E7C63 /* AWExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D436761CE5B3AC004E7C63 /* AWExtensions.swift */; };
+		68D436821CE5B3AC004E7C63 /* AWHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D436771CE5B3AC004E7C63 /* AWHttpRequest.swift */; };
+		68D436831CE5B3AC004E7C63 /* AWImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D436781CE5B3AC004E7C63 /* AWImageLoader.swift */; };
+		68D436841CE5B3AC004E7C63 /* AWModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D436791CE5B3AC004E7C63 /* AWModal.swift */; };
+		68D436851CE5B3AC004E7C63 /* AWModal3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4367A1CE5B3AC004E7C63 /* AWModal3.swift */; };
+		68D436861CE5B3AC004E7C63 /* AWPromise+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4367B1CE5B3AC004E7C63 /* AWPromise+Alamofire.swift */; };
+		68D436871CE5B3AC004E7C63 /* AWPromise+AWHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4367C1CE5B3AC004E7C63 /* AWPromise+AWHttpRequest.swift */; };
+		68D436881CE5B3AC004E7C63 /* AWPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4367D1CE5B3AC004E7C63 /* AWPromise.swift */; };
+		68D436891CE5B3AC004E7C63 /* UIImageView+AWImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4367E1CE5B3AC004E7C63 /* UIImageView+AWImageLoader.swift */; };
+		68D4368A1CE5B3AC004E7C63 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4367F1CE5B3AC004E7C63 /* TestViewController.swift */; };
+		68D4368B1CE5B3AC004E7C63 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D436801CE5B3AC004E7C63 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		68D436671CE5B200004E7C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D4366A1CE5B200004E7C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68D4366C1CE5B200004E7C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D436721CE5B2FA004E7C63 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		68D436761CE5B3AC004E7C63 /* AWExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWExtensions.swift; sourceTree = "<group>"; };
+		68D436771CE5B3AC004E7C63 /* AWHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWHttpRequest.swift; sourceTree = "<group>"; };
+		68D436781CE5B3AC004E7C63 /* AWImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWImageLoader.swift; sourceTree = "<group>"; };
+		68D436791CE5B3AC004E7C63 /* AWModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWModal.swift; sourceTree = "<group>"; };
+		68D4367A1CE5B3AC004E7C63 /* AWModal3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWModal3.swift; sourceTree = "<group>"; };
+		68D4367B1CE5B3AC004E7C63 /* AWPromise+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AWPromise+Alamofire.swift"; sourceTree = "<group>"; };
+		68D4367C1CE5B3AC004E7C63 /* AWPromise+AWHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AWPromise+AWHttpRequest.swift"; sourceTree = "<group>"; };
+		68D4367D1CE5B3AC004E7C63 /* AWPromise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWPromise.swift; sourceTree = "<group>"; };
+		68D4367E1CE5B3AC004E7C63 /* UIImageView+AWImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+AWImageLoader.swift"; sourceTree = "<group>"; };
+		68D4367F1CE5B3AC004E7C63 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		68D436801CE5B3AC004E7C63 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D436731CE5B2FA004E7C63 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +63,7 @@
 		68D436541CE5B200004E7C63 = {
 			isa = PBXGroup;
 			children = (
+				68D436721CE5B2FA004E7C63 /* Alamofire.framework */,
 				68D4365F1CE5B200004E7C63 /* AWKit */,
 				68D4365E1CE5B200004E7C63 /* Products */,
 			);
@@ -54,12 +80,31 @@
 		68D4365F1CE5B200004E7C63 /* AWKit */ = {
 			isa = PBXGroup;
 			children = (
+				68D436751CE5B3AC004E7C63 /* AWKit */,
+				68D4367F1CE5B3AC004E7C63 /* TestViewController.swift */,
+				68D436801CE5B3AC004E7C63 /* PhotosViewController.swift */,
 				68D436601CE5B200004E7C63 /* AppDelegate.swift */,
 				68D436621CE5B200004E7C63 /* ViewController.swift */,
 				68D436641CE5B200004E7C63 /* Main.storyboard */,
 				68D436671CE5B200004E7C63 /* Assets.xcassets */,
 				68D436691CE5B200004E7C63 /* LaunchScreen.storyboard */,
 				68D4366C1CE5B200004E7C63 /* Info.plist */,
+			);
+			path = AWKit;
+			sourceTree = "<group>";
+		};
+		68D436751CE5B3AC004E7C63 /* AWKit */ = {
+			isa = PBXGroup;
+			children = (
+				68D436761CE5B3AC004E7C63 /* AWExtensions.swift */,
+				68D436771CE5B3AC004E7C63 /* AWHttpRequest.swift */,
+				68D436781CE5B3AC004E7C63 /* AWImageLoader.swift */,
+				68D436791CE5B3AC004E7C63 /* AWModal.swift */,
+				68D4367A1CE5B3AC004E7C63 /* AWModal3.swift */,
+				68D4367B1CE5B3AC004E7C63 /* AWPromise+Alamofire.swift */,
+				68D4367C1CE5B3AC004E7C63 /* AWPromise+AWHttpRequest.swift */,
+				68D4367D1CE5B3AC004E7C63 /* AWPromise.swift */,
+				68D4367E1CE5B3AC004E7C63 /* UIImageView+AWImageLoader.swift */,
 			);
 			path = AWKit;
 			sourceTree = "<group>";
@@ -74,6 +119,7 @@
 				68D436591CE5B200004E7C63 /* Sources */,
 				68D4365A1CE5B200004E7C63 /* Frameworks */,
 				68D4365B1CE5B200004E7C63 /* Resources */,
+				68D436741CE5B315004E7C63 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,13 +176,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		68D436741CE5B315004E7C63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68D436591CE5B200004E7C63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68D436631CE5B200004E7C63 /* ViewController.swift in Sources */,
+				68D4368B1CE5B3AC004E7C63 /* PhotosViewController.swift in Sources */,
 				68D436611CE5B200004E7C63 /* AppDelegate.swift in Sources */,
+				68D436811CE5B3AC004E7C63 /* AWExtensions.swift in Sources */,
+				68D436851CE5B3AC004E7C63 /* AWModal3.swift in Sources */,
+				68D436871CE5B3AC004E7C63 /* AWPromise+AWHttpRequest.swift in Sources */,
+				68D436821CE5B3AC004E7C63 /* AWHttpRequest.swift in Sources */,
+				68D436891CE5B3AC004E7C63 /* UIImageView+AWImageLoader.swift in Sources */,
+				68D436831CE5B3AC004E7C63 /* AWImageLoader.swift in Sources */,
+				68D436861CE5B3AC004E7C63 /* AWPromise+Alamofire.swift in Sources */,
+				68D436841CE5B3AC004E7C63 /* AWModal.swift in Sources */,
+				68D4368A1CE5B3AC004E7C63 /* TestViewController.swift in Sources */,
+				68D436881CE5B3AC004E7C63 /* AWPromise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +323,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AWKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adow.AWKit;
@@ -260,6 +338,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AWKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adow.AWKit;
